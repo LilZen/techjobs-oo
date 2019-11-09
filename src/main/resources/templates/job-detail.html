@@ -9,6 +9,13 @@
 <div class="container body-content">
 
     <!-- // TODO #2 - display the job fields, one per row -->
+    <ul>
+        <li th:name="${job.name}" ></li>
+        <li th:field="${job.employer}"></li>
+        <li th:field="${job.location}"></li>
+        <li th:field="${job.coreCompentency}"></li>
+        <li th:field="${job.positionType}"></li>
+    </ul>
 
 </div>
 
